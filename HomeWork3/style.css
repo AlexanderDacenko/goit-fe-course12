@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.header {
+    padding: 75px 0 0 0;
+    margin: 0 0 105px 0;
+}
+.nav-list {
+    text-align: center;
+}
+.list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px 0 0;
+    font-size: 14px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #03a9f3;
+}
+.article-item_r{
+    list-style: none;  
+    display: inline-block; 
+    width: 470px; 
+    font-family: "Playfair Display", serif;
+}   
+.article-item_l{
+    list-style: none;  
+    display: inline-block; 
+    width: 470px; 
+    font-family: "Playfair Display", serif;
+    margin-right: calc(960px - 470px * 2 - 4px);
+} 
+.subtitle{
+    font-size: 14px;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+.atricle-title{
+    margin: 0 0 30px 0;
+}
+.article-text{
+    margin: 0 20px 135px 0;
+    font-size: 14px;
+    width: 470px;
+}
+.footer{
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.button {
+    width: 165px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    font-size: 16px;  
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    border: 1px solid black;
+    margin: 60px auto;
+  }
+.button a {
+    text-decoration: none;
+    color: navy;
+}
