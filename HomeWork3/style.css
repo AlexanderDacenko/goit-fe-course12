@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .wrapper {
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
 }
 .header {
@@ -18,33 +18,59 @@
 .list-item {
     list-style: none;
     display: inline-block;
-    margin: 0 40px 0 0;
+    margin: 0 100px 0 -4px;
     font-size: 14px;
 }
 .nav-link {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    display: block;
 }
 .nav-link:hover{
     color: #03a9f3;
 }
+.article-list_li{
+  margin-bottom: 30px;
+
+}
 .article-item_r{
     list-style: none;  
     display: inline-block; 
-    width: 470px; 
+    width: 420px; 
     font-family: "Playfair Display", serif;
-}   
+    margin: 0 0 135px -4px;
+} 
+.article-item_r_lower{
+  list-style: none;  
+  display: inline-block; 
+  width: 420px; 
+  font-family: "Playfair Display", serif;  
+  margin: 0 0 60px -4px;
+}
 .article-item_l{
     list-style: none;  
     display: inline-block; 
-    width: 470px; 
+    width: 420px; 
     font-family: "Playfair Display", serif;
-    margin-right: calc(960px - 470px * 2 - 4px);
+    margin-right: calc(900px - 420px * 2 - 4px);
 } 
+.article-item_l_lower{
+  list-style: none;  
+  display: inline-block; 
+  width: 420px; 
+  font-family: "Playfair Display", serif;  
+  margin-right: calc(900px - 420px * 2 - 4px);
+}
+img{
+  margin-bottom: 30px;
+}
+main li:nth-child(even){
+  margin-right: 0
+}
 .subtitle{
     font-size: 14px;
-    margin: 30px 0 30px 0;
+    margin: 0 0 30px 0;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
 }
@@ -52,26 +78,29 @@
     margin: 0 0 30px 0;
 }
 .article-text{
-    margin: 0 20px 135px 0;
+    margin: 0 20px 0 0;
     font-size: 14px;
-    width: 470px;
-}
-.footer{
-    text-align: center;
-    /* margin: 0 auto; */
+    width: 420px;
 }
 .button {
-    width: 165px;
-    height: 60px;
-    display: block;
-    line-height: 60px;
-    font-size: 16px;  
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    border: 1px solid black;
-    margin: 60px auto;
-  }
+  width: 165px;
+  height: 60px;
+  display: block;
+  line-height: 60px;
+  font-size: 16px;  
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+}
 .button a {
     text-decoration: none;
-    color: navy;
+    color: black;
+}
+.button a:hover{
+  text-decoration: none; 
+  color:navy;
+}
+.content{
+  padding-bottom: 65px;
 }
