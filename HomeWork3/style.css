@@ -15,6 +15,12 @@
 .nav-list {
     text-align: center;
 }
+.list-item_l{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 -4px;
+    font-size: 14px;
+}
 .list-item {
     list-style: none;
     display: inline-block;
@@ -46,9 +52,9 @@
   display: inline-block; 
   width: 420px; 
   font-family: "Playfair Display", serif;  
-  margin: 0 0 60px -4px;
+  margin: 0 0 0 -4px;
 }
-.article-item_l{
+.article-item_l {
     list-style: none;  
     display: inline-block; 
     width: 420px; 
@@ -65,9 +71,9 @@
 img{
   margin-bottom: 30px;
 }
-main li:nth-child(even){
+/* main li:nth-child(even){
   margin-right: 0
-}
+} */
 .subtitle{
     font-size: 14px;
     margin: 0 0 30px 0;
@@ -90,17 +96,21 @@ main li:nth-child(even){
   font-size: 16px;  
   text-align: center;
   border: 2px solid black;
+  background: #8a8989;
   margin: 0 auto;
   font-family: "Playfair Display", serif;
 }
-.button a {
+.button:hover{
+    background:rgb(163, 163, 163);
+}
+.button a{
     text-decoration: none;
     color: black;
 }
 .button a:hover{
   text-decoration: none; 
-  color:navy;
+  color: rgb(183, 16, 216);
 }
 .content{
-  padding-bottom: 65px;
+  padding-bottom: 65px; 
 }
